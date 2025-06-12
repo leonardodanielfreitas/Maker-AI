@@ -60,22 +60,18 @@
       }
     ],
     "global": {
-      "anchors": [
+      "dropdowns": [
         {
-          "anchor": "Documentation",
+          "dropdown": "Documentation",
           "href": "https://mintlify.com/docs",
           "icon": "book-open-cover"
         },
         {
-          "anchor": "Community",
+          "dropdown": "Changelog",
           "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "icon": "clock"
         }
+       
       ]
     }
   },
