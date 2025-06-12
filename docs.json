@@ -1,89 +1,102 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Maker",
+  "name": "Mint Starter Kit",
   "colors": {
-    "primary": "#2AB673"
+    "primary": "#16A34A",
+    "light": "#07C983",
+    "dark": "#15803D"
   },
+  "favicon": "/favicon.svg",
   "navigation": {
-    "groups": [
+    "tabs": [
       {
-        "group": "Introduction",
-        "pages": [
-          "introduction",
-          "faq",
-          "messaging-limits",
-          "teams"
+        "tab": "Guides",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "index",
+              "quickstart",
+              "development"
+            ]
+          },
+          {
+            "group": "Essentials",
+            "pages": [
+              "essentials/markdown",
+              "essentials/code",
+              "essentials/images",
+              "essentials/settings",
+              "essentials/navigation",
+              "essentials/reusable-snippets"
+            ]
+          }
         ]
       },
       {
-        "group": "Features",
-        "pages": [
-          "quickstart",
-          "modes",
-          "figma-to-maker",
-          "visual-edit",
-          "knowledge-files",
-          "dev-mode",
-          "labs",
-          "deploy",
-          "custom-domain",
-          "launched",
-          "security"
-        ]
-      },
-      {
-        "group": "Integrations",
-        "pages": [
-          "integrations",
-          "github-integration",
-          "supabase-integration",
-          "stripe-payments",
-          "integration-with-resend",
-          "integration-with-clerk",
-          "integration-with-make",
-          "integration-with-replicate",
-          "integration-with-ai",
-          "21stdev-integration"
-        ]
-      },
-      {
-        "group": "Tips & tricks",
-        "pages": [
-          "from-idea-to-working-app",
-          "best-practices",
-          "troubleshooting",
-          "mobile-support",
-          "seo",
-          "using-images-in-maker",
-          "using-videos",
-          "chrome-adds-on",
-          "using-custom-google-fonts",
-          "community",
-          "support-policy",
-          "using-npm-packages",
-          "glossary"
-        ]
-      },
-      {
-        "group": "Prompt Engineering",
-        "pages": [
-          "prompting-1-1",
-          "prompt-library",
-          "debugging-prompts",
-          "prompts-and-integrations"
-        ]
-      },
-      {
-        "group": "Use Cases",
-        "pages": [
-          "inspiration-time",
-          "video-tutorial",
-          "landing-page",
-          "prototype",
-          "saas"
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "API Documentation",
+            "pages": [
+              "api-reference/introduction"
+            ]
+          },
+          {
+            "group": "Endpoint Examples",
+            "pages": [
+              "api-reference/endpoint/get",
+              "api-reference/endpoint/create",
+              "api-reference/endpoint/delete",
+              "api-reference/endpoint/webhook"
+            ]
+          }
         ]
       }
-    ]
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Documentation",
+          "href": "https://mintlify.com/docs",
+          "icon": "book-open-cover"
+        },
+        {
+          "anchor": "Community",
+          "href": "https://mintlify.com/community",
+          "icon": "slack"
+        },
+        {
+          "anchor": "Blog",
+          "href": "https://mintlify.com/blog",
+          "icon": "newspaper"
+        }
+      ]
+    }
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:hi@mintlify.com"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Dashboard",
+      "href": "https://dashboard.mintlify.com"
+    }
+  },
+  "footer": {
+    "socials": {
+      "x": "https://x.com/mintlify",
+      "github": "https://github.com/mintlify",
+      "linkedin": "https://linkedin.com/company/mintlify"
+    }
   }
 }
