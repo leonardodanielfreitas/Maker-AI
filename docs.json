@@ -1,117 +1,87 @@
 {
-  "name": "Maker Documentation",
-  "logo": "/assets/logo.png",
+  "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
+  "name": "Maker",
   "colors": {
-    "primary": "#8B4513"
+    "primary": "#2AB673"
   },
   "navigation": {
-    "tabs": [
+    "groups": [
       {
-        "tab": "Introduction",
-        "groups": [
-          {
-            "group": "Introduction",
-            "pages": [
-              "introduction/welcome",
-              "introduction/faq",
-              "introduction/messaging-limits",
-              "introduction/teams"
-            ]
-          }
+        "group": "Introduction",
+        "pages": [
+          "introduction",
+          "faq",
+          "messaging-limits",
+          "teams"
         ]
       },
       {
-        "tab": "Features",
-        "groups": [
-          {
-            "group": "Features",
-            "pages": [
-              "features/quickstart",
-              "features/modes",
-              "features/figma-to-maker",
-              "features/visual-edit",
-              "features/knowledge-files",
-              "features/dev-mode",
-              "features/labs",
-              "features/deploy",
-              "features/custom-domain",
-              "features/launched",
-              "features/security"
-            ]
-          }
+        "group": "Features",
+        "pages": [
+          "quickstart",
+          "modes",
+          "figma-to-maker",
+          "visual-edit",
+          "knowledge-files",
+          "dev-mode",
+          "labs",
+          "deploy",
+          "custom-domain",
+          "launched",
+          "security"
         ]
       },
       {
-        "tab": "Integrations",
-        "groups": [
-          {
-            "group": "Integrations",
-            "pages": [
-              "integrations/overview",
-              "integrations/github",
-              "integrations/supabase",
-              "integrations/stripe-payments",
-              "integrations/resend",
-              "integrations/clerk",
-              "integrations/make",
-              "integrations/replicate",
-              "integrations/ai",
-              "integrations/21st-dev"
-            ]
-          }
+        "group": "Integrations",
+        "pages": [
+          "integrations",
+          "github-integration",
+          "supabase-integration",
+          "stripe-payments",
+          "integration-with-resend",
+          "integration-with-clerk",
+          "integration-with-make",
+          "integration-with-replicate",
+          "integration-with-ai",
+          "21stdev-integration"
         ]
       },
       {
-        "tab": "Tips & tricks",
-        "groups": [
-          {
-            "group": "Tips & tricks",
-            "pages": [
-              "tips/from-idea-to-working-app",
-              "tips/best-practices",
-              "tips/troubleshooting",
-              "tips/mobile-support",
-              "tips/seo",
-              "tips/using-images",
-              "tips/using-videos",
-              "tips/chrome-addons",
-              "tips/custom-google-fonts",
-              "tips/community",
-              "tips/support-policy",
-              "tips/using-npm-packages",
-              "tips/glossary"
-            ]
-          }
+        "group": "Tips & tricks",
+        "pages": [
+          "from-idea-to-working-app",
+          "best-practices",
+          "troubleshooting",
+          "mobile-support",
+          "seo",
+          "using-images-in-maker",
+          "using-videos",
+          "chrome-adds-on",
+          "using-custom-google-fonts",
+          "community",
+          "support-policy",
+          "using-npm-packages",
+          "glossary"
         ]
       },
       {
-        "tab": "Prompt Engineering",
-        "groups": [
-          {
-            "group": "Prompt Engineering",
-            "pages": [
-              "prompting/prompting-1-1",
-              "prompting/prompt-library",
-              "prompting/debugging-prompts",
-              "prompting/prompts-integrations"
-            ]
-          }
+        "group": "Prompt Engineering",
+        "pages": [
+          "prompting-1-1",
+          "prompt-library",
+          "debugging-prompts",
+          "prompts-and-integrations"
         ]
       },
       {
-        "tab": "Use Cases",
-        "groups": [
-          {
-            "group": "Use Cases",
-            "pages": [
-              "use-cases/inspiration-time",
-              "use-cases/video-tutorial",
-              "use-cases/landing-page",
-              "use-cases/prototype",
-              "use-cases/saas"
-            ]
-          }
+        "group": "Use Cases",
+        "pages": [
+          "inspiration-time",
+          "video-tutorial",
+          "landing-page",
+          "prototype",
+          "saas"
         ]
       }
     ]
