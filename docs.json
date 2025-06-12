@@ -8,10 +8,9 @@
     "dark": "#15803D"
   },
   "fonts": {
-    "family" : "Plus Jakarta Sans, sans-serif",
+    "family" : "Plus Jakarta Sans, Inter"
   },
-  
-  }
+
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
