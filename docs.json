@@ -1,80 +1,119 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
+  "name": "Maker Documentation",
+  "logo": "/assets/logo.png",
   "theme": "mint",
-  "name": "Mint Starter Kit",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#8B4513"
   },
-  "fonts": {
-    "family" : "Plus Jakarta Sans, Inter"
-  },
-
-  "favicon": "/favicon.svg",
-  "tabs": [
-    {
-      "tab": "Guides",
-      "groups": [
-        {
-          "group": "Get Started",
-          "pages": [
-            "index",
-            "quickstart",
-            "development"
-          ]
-        },
-        {
-          "group": "Essentials",
-          "pages": [
-            "essentials/markdown",
-            "essentials/code",
-            "essentials/images",
-            "essentials/settings",
-            "essentials/navigation",
-            "essentials/reusable-snippets"
-          ]
-        }
-      ]
-    }
-  ],
-  "global": {
-    "dropdowns": [
+  "navigation": {
+    "tabs": [
       {
-        "dropdown": "Documentation",
-        "href": "https://mintlify.com/docs",
-        "icon": "book-open-cover"
+        "tab": "Introduction",
+        "groups": [
+          {
+            "group": "Introduction",
+            "pages": [
+              "introduction/welcome",
+              "introduction/faq",
+              "introduction/messaging-limits",
+              "introduction/teams"
+            ]
+          }
+        ]
       },
       {
-        "dropdown": "Changelog",
-        "href": "https://makerinc.mintlify.app/changelog",
-        "icon": "clock"
+        "tab": "Features",
+        "groups": [
+          {
+            "group": "Features",
+            "pages": [
+              "features/quickstart",
+              "features/modes",
+              "features/figma-to-maker",
+              "features/visual-edit",
+              "features/knowledge-files",
+              "features/dev-mode",
+              "features/labs",
+              "features/deploy",
+              "features/custom-domain",
+              "features/launched",
+              "features/security"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Integrations",
+        "groups": [
+          {
+            "group": "Integrations",
+            "pages": [
+              "integrations/overview",
+              "integrations/github",
+              "integrations/supabase",
+              "integrations/stripe-payments",
+              "integrations/resend",
+              "integrations/clerk",
+              "integrations/make",
+              "integrations/replicate",
+              "integrations/ai",
+              "integrations/21st-dev"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Tips & tricks",
+        "groups": [
+          {
+            "group": "Tips & tricks",
+            "pages": [
+              "tips/from-idea-to-working-app",
+              "tips/best-practices",
+              "tips/troubleshooting",
+              "tips/mobile-support",
+              "tips/seo",
+              "tips/using-images",
+              "tips/using-videos",
+              "tips/chrome-addons",
+              "tips/custom-google-fonts",
+              "tips/community",
+              "tips/support-policy",
+              "tips/using-npm-packages",
+              "tips/glossary"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Prompt Engineering",
+        "groups": [
+          {
+            "group": "Prompt Engineering",
+            "pages": [
+              "prompting/prompting-1-1",
+              "prompting/prompt-library",
+              "prompting/debugging-prompts",
+              "prompting/prompts-integrations"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Use Cases",
+        "groups": [
+          {
+            "group": "Use Cases",
+            "pages": [
+              "use-cases/inspiration-time",
+              "use-cases/video-tutorial",
+              "use-cases/landing-page",
+              "use-cases/prototype",
+              "use-cases/saas"
+            ]
+          }
+        ]
       }
     ]
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
-  },
-  "navigation": []
+  }
 }
